@@ -24,7 +24,7 @@ public class CalculatorServiceImplTest {
 	}
 	@Test
 	public void restaTest() {		
-		assertEquals( service.resta("5.0", "2.0"),"La resta de 5.0 y 2.0 es: 3.0");
+		assertEquals( service.resta("5.0", "1.0"),"La resta de 5.0 y 1.0 es: 4.0");
 	}
 	@Test
 	public void multiTest() {		
