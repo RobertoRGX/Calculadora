@@ -20,7 +20,7 @@ public class CalculatorServiceImplTest {
 	
 	@Test
 	public void sumaTest() {		
-		assertEquals( service.suma("2.0", "2.0"),"La suma de 2.0 y 2.0 es: 4.0");
+		assertEquals( service.suma("3.0", "2.0"),"La suma de 3.0 y 2.0 es: 5.0");
 	}
 	@Test
 	public void restaTest() {		
