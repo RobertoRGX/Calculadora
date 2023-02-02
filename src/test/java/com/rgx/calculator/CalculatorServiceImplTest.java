@@ -32,7 +32,7 @@ public class CalculatorServiceImplTest {
 	}
 	@Test
 	public void divideTest() {		
-		assertEquals( service.divide("5.0", "5.0"),"La division de 5.0 y 5.0 es: 1.0");
+		assertEquals( service.divide("10.0", "5.0"),"La division de 10.0 y 5.0 es: 2.0");
 	}
 	@Test
 	public void pingTest() {
