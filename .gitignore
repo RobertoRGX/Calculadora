@@ -3,7 +3,7 @@
 
 # Compilation folders #
 /bin/
-/target/
+#/target/
 /build/
 
 # Java compile files #
