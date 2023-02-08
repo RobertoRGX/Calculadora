@@ -1,3 +1,9 @@
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+
 # Git folder #
 /.git/
 
@@ -6,21 +12,9 @@
 /target/
 /build/
 
-# Java compile files #
-*.class
-
-# Package files #
-#*.jar
-*.war
-*.ear
-*.db
-
 # Log files #
 /*.log
 /*.log.*
-
-# Output folders #
-/test-output/
 
 # Eclipse files #
 .buildpath
@@ -47,18 +41,3 @@ local.properties
 # IntelliJ Idea files #
 .idea
 *.iml
-
-# Visual Studio #
-.vscode/
-.factorypath
-
-# Windows files #
-Thumbs.db
-Desktop.ini
-
-# OS files #
-.DS_Store
-.svn
-._*
-.Spotlight-V100
-.Trashes
