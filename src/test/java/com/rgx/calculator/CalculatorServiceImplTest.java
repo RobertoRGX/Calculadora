@@ -28,11 +28,11 @@ public class CalculatorServiceImplTest {
 	}
 	@Test
 	public void multiTest() {		
-		assertEquals( service.multi("5.0", "2.0"),"El producto de 5.0 y 2.0 es: 10.0");
+		assertEquals( service.multi("5.0", "3.0"),"El producto de 5.0 y 3.0 es: 15.0");
 	}
 	@Test
 	public void divideTest() {		
-		assertEquals( service.divide("5.0", "5.0"),"La division de 5.0 y 5.0 es: 1.0");
+		assertEquals( service.divide("10.0", "5.0"),"La division de 10.0 y 5.0 es: 2.0");
 	}
 	@Test
 	public void pingTest() {

@@ -13,8 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 @Slf4j
 public class CalculatorServiceImpl implements CalculatorService {
-	
-	
+		
 	@Override
 	public String ping() {	
 		log.debug("Bienvenido a Calculator: "+new Date()+"     ...         server/calculator/[suma,resta,multi,producto]/{val}/{val} ");
