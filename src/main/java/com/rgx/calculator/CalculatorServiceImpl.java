@@ -25,7 +25,7 @@ public class CalculatorServiceImpl implements CalculatorService {
 	public String suma(String val1,String val2) {
 		try {
 		double res = Double.parseDouble(val1)+Double.valueOf(val2);
-		log.debug("La suma de los valores "+val1+" y "+val2+" es: "+ res);
+		log.debug("La suma de los valores siguientes:"+val1+" y "+val2+" es: "+ res);
 		return "La suma de los valores "+val1+" y "+val2+" es: "+ res;
 	}catch (NumberFormatException e) {
 		log.warn(e.getMessage()+", No es posible la suma de: "+val1+" y "+val2);
