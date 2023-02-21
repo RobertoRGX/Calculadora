@@ -26,7 +26,7 @@ public class CalculatorServiceImpl implements CalculatorService {
 		try {
 		double res = Double.parseDouble(val1)+Double.valueOf(val2);
 		log.debug("La suma de los valores "+val1+" y "+val2+" es: "+ res);
-		return "La suma de los valores"+val1+" y "+val2+" es: "+ res;
+		return "La suma de los valores "+val1+" y "+val2+" es: "+ res;
 	}catch (NumberFormatException e) {
 		log.warn(e.getMessage()+", No es posible la suma de: "+val1+" y "+val2);
 		return e.getMessage()+", No es posible la suma de: "+val1+" y "+val2;
@@ -36,8 +36,8 @@ public class CalculatorServiceImpl implements CalculatorService {
 	public String resta(String val1,String val2) {	
 		try {
 		double res = Double.parseDouble(val1)-Double.valueOf(val2);
-		log.debug("La resta de los valores"+val1+" y "+val2+" es: "+ res);
-		return "La resta de los valores"+val1+" y "+val2+" es: "+ res;
+		log.debug("La resta de los valores "+val1+" y "+val2+" es: "+ res);
+		return "La resta de los valores "+val1+" y "+val2+" es: "+ res;
 	}catch (NumberFormatException e) {
 		log.warn(e.getMessage()+", No es posible la resta de: "+val1+" y "+val2);
 		return e.getMessage()+", No es posible la resta de: "+val1+" y "+val2;
@@ -48,7 +48,7 @@ public class CalculatorServiceImpl implements CalculatorService {
 		try {
 		double res = Double.parseDouble(val1)*Double.valueOf(val2);
 		log.debug("El producto de los valores "+val1+" y "+val2+" es: "+ res);
-		return "El producto de los valores"+val1+" y "+val2+" es: "+ res;
+		return "El producto de los valores "+val1+" y "+val2+" es: "+ res;
 		}catch (NumberFormatException e) {
 			log.warn(e.getMessage()+", No es posible la multiplicacion de: "+val1+" y "+val2);
 			return e.getMessage()+", No es posible la multiplicacion de: "+val1+" y "+val2;
@@ -58,8 +58,8 @@ public class CalculatorServiceImpl implements CalculatorService {
 	public String divide(String val1,String val2) {	
 		try {
 			double res = Double.parseDouble(val1)/Double.valueOf(val2);
-			log.debug("La division de los valores"+val1+" y "+val2+" es: "+ res);
-			return "La division de los valores"+val1+" y "+val2+" es: "+ res;
+			log.debug("La division de los valores "+val1+" y "+val2+" es: "+ res);
+			return "La division de los valores "+val1+" y "+val2+" es: "+ res;
 		}catch (NumberFormatException e) {
 			log.warn(e.getMessage()+", No es posible la division de: "+val1+" y "+val2);
 			return e.getMessage()+", No es posible la division de: "+val1+" y "+val2;
