@@ -18,21 +18,22 @@ public class CalculatorServiceImplTest {
 	@Autowired	
 	CalculatorServiceImpl service;
 	
+	
 	@Test
 	public void sumaTest() {		
-		assertEquals( service.suma("3.0", "2.0"),"La suma de los valores 3.0 y 2.0 es: 5.0");
+		assertEquals( service.suma("3.0", "2.0"),"La suma  de los valores siguientes  3.0 y 2.0 es 5.0 ");
 	}
 	@Test
 	public void restaTest() {		
-		assertEquals( service.resta("5.0", "1.0"),"La resta de los valores 5.0 y 1.0 es: 4.0");
+		assertEquals( service.resta("5.0", "1.0"),"La resta  de los valores siguientes  5.0 y 1.0 es 4.0 ");
 	}
 	@Test
 	public void multiTest() {		
-		assertEquals( service.multi("5.0", "3.0"),"El producto de los valores 5.0 y 3.0 es: 15.0");
+		assertEquals( service.multi("5.0", "3.0"),"El producto  de los valores siguientes  5.0 y 3.0 es 15.0 ");
 	}
 	@Test
 	public void divideTest() {		
-		assertEquals( service.divide("10.0", "5.0"),"La division de los valores 10.0 y 5.0 es: 2.0");
+		assertEquals( service.divide("10.0", "5.0"),"La division  de los valores siguientes  10.0 y 5.0 es 2.0 ");
 	}
 	@Test
 	public void pingTest() {
